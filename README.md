@@ -247,7 +247,7 @@ Dilakukan evaluasi yang berbeda untuk teknik Content-Based Filtering dan juga Co
 
 Berdasarkan teknik evaluasi yang dilakukan menggunakan metrik evaluasi precision, dapat dilihat bahwa rumus dari precision itu sendiri adalah sebagai berikut:
 
-![Image 1](yourlinkhere.png?raw=true)
+![Image 1](https://github.com/cyncindy/Recommender-System-For-Movies/blob/main/images/precision-recommendations.png?raw=true)
 
 Rumus tersebut adalah rumus precision yang umumnya digunakan pada sistem rekomendasi. Rumus precision membantu pengguna dalam memilih item yang mirip di antara set item yang tersedia. Berikut adalah hasil output berupa movie yang dihasilkan dari sistem rekomendasi berbasis Content-Based Filtering dengan pendekatan Cosine Similarity:
 
@@ -279,7 +279,7 @@ Performa model yang menggunakan pendekatan Collaborative Filtering diukur dengan
 
 MSE dapat didefinisikan dalam persamaan berikut:
 
-![Image 2](yourlinkhere.png?raw=true)
+![Image 2](https://github.com/cyncindy/Recommender-System-For-Movies/blob/main/images/mse-formula.webp?raw=true)
 
 Pada Collaborative Filtering, nilai MSE dihitung sembari menentukan nilai k yang sesuai untuk dimasukkan ke model SVD. Setelah itu, nilai k terbaik yang diperoleh adalah nilai k yang memberikan nilai MSE terkecil. Tahap akhirnya kemudian adalah melakukan SVD dengan nilai k terbaik yang telah diperoleh setelah dilakukan pengecekan satu per satu terhadap nilai k yang memberikan MSE terkecil.
 
